@@ -1,0 +1,73 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_6sdp"
+    card_view:cardCornerRadius="@dimen/_2sdp"
+    card_view:cardElevation="@dimen/_1sdp"
+    card_view:cardUseCompatPadding="true">
+<RelativeLayout
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tv_from"
+        android:textSize="@dimen/_14sdp"
+        android:fontFamily="sans-serif-black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_to"
+        android:textSize="@dimen/_14sdp"
+        android:fontFamily="sans-serif-black"
+        android:layout_below="@+id/tv_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_uname"
+        android:layout_below="@+id/tv_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_accept"
+        android:layout_below="@+id/tv_uname"
+        android:text="Accept"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/button_rounded"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_33sdp" />
+
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_below="@+id/tv_uname"
+        android:layout_centerHorizontal="true"
+        android:text="Location"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/button_rounded"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_33sdp" />
+
+    <Button
+        android:id="@+id/btn_reject"
+        android:layout_below="@+id/tv_uname"
+        android:layout_alignParentRight="true"
+        android:text="Reject"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/button_rounded"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_33sdp" />
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

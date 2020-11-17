@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_from"
+        android:padding="@dimen/_8sdp"
+        android:text="From"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_to"
+        android:text="To"
+        android:padding="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_driver_uname"
+        android:text="driver_uname"
+        android:padding="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_status"
+        android:text="status"
+        android:padding="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/delete_pic_up"
+        android:text="Delete Pickup"
+        android:padding="@dimen/_2sdp"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginBottom="@dimen/_5ssp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginLeft="@dimen/_70sdp"
+        android:layout_marginRight="@dimen/_70sdp"
+        android:background="@drawable/button_rounded2"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

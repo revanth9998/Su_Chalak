@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/et_from_addr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/edittext_rounded"
+        android:hint="From Address"
+        android:padding="@dimen/_8sdp" />
+
+
+
+    <EditText
+        android:id="@+id/et_to_addr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/edittext_rounded"
+        android:hint="To Address"
+        android:padding="@dimen/_8sdp" />
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:text="Submit"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:textColor="#03DAC5"
+        android:background="@drawable/button_rounded3"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_35sdp" />
+
+</LinearLayout>

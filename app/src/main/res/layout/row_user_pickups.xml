@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cv_team_name"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#F4EFEF"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="3dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginLeft="@dimen/_10sdp"
+    android:layout_marginRight="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:background="#DFDEDE"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_from"
+        android:padding="@dimen/_5ssp"
+        android:text="From"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_to"
+        android:text="To"
+        android:paddingLeft="@dimen/_5ssp"
+        android:layout_marginTop="@dimen/_5ssp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_driver_uname"
+        android:text="driver_uname"
+        android:paddingLeft="@dimen/_5ssp"
+        android:layout_marginTop="@dimen/_5ssp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_status"
+        android:text="status"
+        android:layout_marginTop="@dimen/_5ssp"
+        android:paddingLeft="@dimen/_5ssp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
